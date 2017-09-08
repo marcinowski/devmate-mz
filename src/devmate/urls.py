@@ -28,7 +28,7 @@ if settings.USE_MODELTRANSLATION:
         url('^i18n/$', set_language, name='set_language'),
     ]
 
-urlpatterns += [
+urlpatterns += i18n_patterns(
     # We don't want to presume how your homepage works, so here are a
     # few patterns you can use to set it up.
 
@@ -97,7 +97,7 @@ urlpatterns += [
 
     # ("^%s/" % settings.SITE_PREFIX, include("mezzanine.urls"))
 
-]
+)
 
 # Adds ``STATIC_URL`` to the context of error pages, so that error
 # pages can use JS, CSS and images.
