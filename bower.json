@@ -1,0 +1,26 @@
+{
+  "name": "devmate",
+  "homepage": "https://github.com/marcinowski/devmate",
+  "authors": [
+    "Marcin muszynskimarcin6@gmail.com"
+  ],
+  "description": "Blog about programming",
+  "main": "src",
+  "keywords": [
+    "blog",
+    "devmate"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "MDBootstrap": "^4.4.1",
+    "components-font-awesome": "^4.7.0"
+  }
+}

@@ -118,4 +118,7 @@ fabric.properties
 
 # Mezzanine
 *.db
+# temp article dumps
 src/_dumps/*
+# FE libs
+src/static/libs/
