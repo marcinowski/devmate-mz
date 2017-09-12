@@ -13,12 +13,9 @@
     <link href="libs/MDBootstrap/css/mdb.min.css" rel="stylesheet">
     <link href="site/css/site.css" rel="stylesheet">
 </head>
-
-    <!--Navbar-->
-
-<!--Main Navigation-->
+<body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark stylish-color-dark black scrollable-navbar">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark elegant-color-dark scrolling-navbar" style="border-radius: 0px;">
             <a class="navbar-brand" href="#"><strong>Devmate awesome logo</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,62 +32,102 @@
                         <a class="nav-link" href="/o-mnie">O mnie</a>
                     </li>
                 </ul>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Szukaj" aria-label="Search">
-                </form>
                 <div class="btn-group">
-                    <button class="btn btn-elegant btn-social-all waves-effect waves-light dropdown-toggle" style="background-color: transparent; color: white;" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PL</button>
-                    <div class="dropdown-menu" style="position: absolute;">
-                        <a class="dropdown-item" href="#">PL</a>
-                        <a class="dropdown-item" href="#">EN</a>
+                    <button class="btn btn-social-all waves-effect waves-light dropdown-toggle"
+                            style="background-color: transparent; color: white;" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">PL</button>
+                    <div class="dropdown-menu elegant-color-dark" style="border-radius: 0px;">
+                        <a class="dropdown-item white-text" href="#"><p class="white-text">PL</p></a>
+                        <a class="dropdown-item" href="#"><p class="white-text">EN</p></a>
                     </div>
                 </div>
             </div>
         </nav>
 
         <!--Mask-->
-        <div class="view hm-black-strong">
+        <div class="view hm-black-strong parallax">
             <div class="full-bg-img flex-center">
                 <div class="container">
                     <div class="white-text text-center wow fadeInUp">
                         <h1>Devmate</h1>
-                        <h4>Catchy-catchy phrase</h4>
+                        <h4>Catchy-catchy catch phrase</h4>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <main class="pt-6 text-center">
-        <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus volutpat purus sit amet sagittis. In sodales turpis sit amet lorem mollis, sit amet commodo odio iaculis. Aenean in ornare justo, in auctor mi. Morbi suscipit eget felis vel maximus. Vivamus interdum aliquam est, at hendrerit diam tincidunt a. Nullam quis tellus pellentesque, imperdiet ante vel, luctus ligula. Sed vel nibh sapien. Cras tincidunt eget ante eget maximus. Nullam pulvinar interdum commodo. Donec in convallis risus, nec fringilla turpis. Donec a orci non neque varius porta. Fusce feugiat, justo sit amet euismod tincidunt, tellus libero vestibulum nulla, id sollicitudin nibh odio id purus. Donec venenatis id dolor ac faucibus. Maecenas non neque nunc.
+    <main class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12 pr-5">
+                    <h1 class="text-center wow fadeInLeft">Ostatnie posty na blogu</h1>
+                    <hr>
+                    <div class="card mt-5 wow fadeInLeft">
+                        <div class="card-header elegant-color-dark lighten-2 white-text">
+                            12/03/2017
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Ostatni artykuł</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus volutpat purus sit amet sagittis.</p>
+                            <a href="#" class="pull-right">Czytaj dalej</a>
+                        </div>
+                    </div>
+                    <div class="card mt-5 wow fadeInLeft">
+                        <div class="card-header elegant-color-dark lighten-2 white-text">
+                            12/02/2017
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Przedostatni artykuł</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus volutpat purus sit amet sagittis.</p>
+                            <a href="#" class="pull-right">Czytaj dalej</a>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <a href="#" class="pull-right wow fadeInLeft">Więcej wpisów >></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <!-- Author, newsfeed -->
+                    <div class="row wow fadeInRight">
+                        <img src="media/avatar.png" class="mx-auto d-block" alt="First sample avatar image">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="row wow fadeInRight">
+                        <div class="text-center">
+                            <h4><strong>Marcin Muszynski</strong></h4>
+                            <h6 class="font-bold grey-text mb-4">Software developer</h6>
+                            <p class="grey-text">Lubię placki, jestem śmiesznym i wyluzowanym programistą, bo wrzucam śmieszne rzeczy które lubię robić i generalnie śmiesznie XD.</p>
+                        </div>
+                    </div>
+                    <div class="row wow fadeInRight">
+                        <form class="md-form mb-0">
+                            <i class="fa fa-search prefix"></i>
+                            <input id="search" class="form-control mr-sm-2" type="text">
+                            <label for="search">Szukaj</label>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <h3>Tag</h3>Tag<h6>Tag</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-Vivamus mattis tempus sem, nec tempor dolor eleifend ut. In non nibh sed enim vestibulum blandit. Nunc eget metus sed sapien pretium dignissim. Praesent facilisis, eros eget iaculis placerat, ante dui interdum dolor, nec bibendum ligula nunc eu mi. Vivamus dolor velit, dapibus vitae nunc vel, porttitor auctor lorem. Donec quam nunc, lobortis ut ante nec, pretium sollicitudin sem. In consectetur ullamcorper laoreet. Nunc lacinia enim leo, et tincidunt mauris finibus a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus ipsum id commodo egestas. Donec orci purus, cursus et orci eget, sollicitudin semper tortor. Donec a malesuada diam, at interdum tellus. Sed eu neque eu dui hendrerit dictum. Proin ornare ut nunc vel blandit.
-
-Etiam fringilla ultrices turpis, sit amet aliquet eros rhoncus id. Morbi quis lorem vel velit tristique tempor. Morbi congue est pretium semper gravida. Sed tempor ipsum quis nunc dignissim tristique. Nullam sagittis erat a imperdiet placerat. Suspendisse in tempus velit, vel dapibus leo. Phasellus hendrerit ullamcorper metus eget condimentum. Donec id tincidunt mi, in ornare est. Ut lorem leo, tincidunt sit amet nisl nec, sollicitudin luctus orci. Etiam in vestibulum justo. Vivamus ac augue quis neque volutpat pulvinar eu rutrum diam. Nullam sodales ac leo ultricies venenatis.
-
-Nunc augue arcu, aliquam eu est sed, fringilla luctus massa. Nunc eu posuere neque. Praesent tempor nibh eu mi elementum vulputate. In commodo scelerisque augue nec interdum. Sed lobortis, quam non convallis sodales, elit nisi egestas ante, non finibus tellus eros sed ante. Aliquam erat elit, tristique vitae metus porttitor, aliquet dapibus tortor. Integer sit amet ante eros.
-
-Nulla lobortis sodales posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam facilisis arcu ac odio sollicitudin, at efficitur felis posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer justo elit, consectetur non hendrerit ac, imperdiet eu mauris. Nullam velit erat, venenatis id porta id, efficitur nec erat. Nullam ultricies ultrices purus, sit amet posuere ligula pulvinar sit amet. Nullam blandit interdum velit, id facilisis lectus sodales non.
-        </p>
     </main>
 
-    <footer class="page-footer center-on-small-only stylish-color-dark black">
-        <!--Social buttons-->
+    <footer class="page-footer center-on-small-only elegant-color-dark mt-5">
         <div class="text-center mb-3">
-            <a target="_blank" href="https://www.facebook.com/" class="btn btn-elegant btn-social-all waves-effect waves-light"><i class="fa fa-facebook left"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/" class="btn btn-elegant btn-social-all waves-effect waves-light"><i class="fa fa-linkedin left"></i></a>
-            <a target="_blank" href="https://github.com/marcinowski/" class="btn btn-elegant btn-social-all  waves-effect waves-light"><i class="fa fa-github left"></i></a>
+            <a target="_blank" href="https://www.facebook.com/" class="btn btn-elegant btn-social-all waves-effect waves-light wow fadeInLeft"><i class="fa fa-facebook left"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/" class="btn btn-elegant btn-social-all waves-effect waves-light wow fadeInUp"><i class="fa fa-linkedin left"></i></a>
+            <a target="_blank" href="https://github.com/marcinowski/" class="btn btn-elegant btn-social-all  waves-effect waves-light wow fadeInRight"><i class="fa fa-github left"></i></a>
         </div>
-        <!--/.Social buttons-->
-        <!--Copyright-->
         <div class="footer-copyright">
-            <div class="container-fluid">
+            <div class="container-fluid wow fadeInUp">
                 ©
                 2017 Copyright: <a href="/"> devmate.pl </a>
             </div>
         </div>
-        <!--/.Copyright-->
     </footer>
 
     <script type="text/javascript" src="libs/jquery/dist/jquery.js"></script>
